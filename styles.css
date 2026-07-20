@@ -1,15 +1,16 @@
 /* General page styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Garamond", serif;
+    background-color: #fce4ec;
     margin: 0;
     padding: 0;
+    font-size: 12px
 }
 
 /* Header section styling */
 header {
-    background: #333;
-    color: #fff;
+    background: #ec407a;
+    color: #111111;
     padding: 10px 0;
     text-align: center;
 }
@@ -26,8 +27,8 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
-    color: white;
+    background: #fce4ec;
+    color: black;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -36,7 +37,7 @@ header nav button {
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #f48fb1;
 }
 
 /* Flex container for team bios and vision sections */
@@ -77,8 +78,8 @@ h2 {
 
 /* Button styling */
 button {
-    background: #007BFF;
-    color: white;
+    background: #ec407a;
+    color: black;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -86,5 +87,5 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #f48fb1;
 }
